@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #B91372;
+    font-family: "Poppins", sans-serif;
+}
+
+.todo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.todo-container h1{
+    color: #fff;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FA198B;
+    width: 500px;
+    border-radius: 20px;
+    margin:30px auto;
+    padding: 10px;
+}
+
+.container input{
+    width: 250px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.items{
+    display: flex;
+    gap: 10px;
+}
+
+.container #add{
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    /* margin-top: 10px; */
+    color: #fff;
+    font-weight: bold;
+    background-color: #31081F;
+    cursor: pointer;
+    text-align: center;
+}
+
+#lists li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 400px;
+    padding: 12px 15px;
+
+    margin-bottom: 10px;
+
+    list-style: none;
+    font-weight: 600;
+    color: #fff;
+
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border-radius: 12px;
+    margin-right: 30px;
+}
+
+/* Improved delete button */
+.delete-btn {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 6px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.delete-btn:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+}
